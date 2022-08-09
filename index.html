@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Report</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<main>
+    <nav>
+        <div class="nav-wrapper">
+            <form class="nav-form">
+                <div class="input-field">
+                    <input id="search" type="search" onkeyup="searchUsersByKey()">
+                </div>
+                <button class="search-button" onclick="searchUsersByBtn()"><i class="material-icons">search</i></button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="cards">
+
+    </div>
+</main>
+
+<!-- Modal -->
+<div id="modal1" class="modal">
+</div>
+
+<script  src="script.js"></script>
+</body>
+</html>
